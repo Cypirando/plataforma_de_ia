@@ -1,22 +1,22 @@
 // Buttons.tsx
 import { ArrowRight } from "@phosphor-icons/react";
 import React from "react";
+import { BorderIcons, CardButton, Container } from "./styled";
 
-// Interface para as props do componente
 interface ButtonsProps {
-  buttonText: string; // Texto para o botão
-  icon: React.ReactNode; // Ícone (pode ser um componente React)
+  buttonText: string;
+  icon: React.ReactNode;
 }
 
 const Buttons: React.FC<ButtonsProps> = ({ buttonText, icon }) => {
   return (
-    <div style={{ width: "100%", display: "flex" , justifyContent:'space-between'}}>
-      <div style={{gap:'8px', display:'flex'}}>
-        {icon}
+    <Container>
+      <CardButton>
+        <BorderIcons>{icon}</BorderIcons>
         {buttonText}
-      </div>
-      <ArrowRight size={32} cursor={'pointer'} />
-    </div>
+      </CardButton>
+      <ArrowRight size={32} cursor={"pointer"} />
+    </Container>
   );
 };
 

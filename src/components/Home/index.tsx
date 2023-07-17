@@ -5,16 +5,20 @@ import {
   MusicNotesSimple,
   PlayCircle,
 } from "@phosphor-icons/react";
-import { Card, CardBox, Conatiner, Texts } from "./styled";
+import { Card, CardBox, Container, Divider, Texts } from "./styled";
 import Title from "../Title";
 import Buttons from "../Buttons";
+import Inputs from "../Inputs";
+import { BorderIcons } from "../Buttons/styled";
 
 const Home = () => {
   return (
-    <Conatiner>
+    <Container>
       <CardBox>
         <Texts>
-          <MagicWand size={64} />
+          <BorderIcons style={{ backgroundColor: "rgb(1 0 8 / 50%)" }}>
+            <MagicWand size={64} />
+          </BorderIcons>
           <Title />
         </Texts>
         <Card>
@@ -33,7 +37,9 @@ const Home = () => {
           />
         </Card>
       </CardBox>
-    </Conatiner>
+      <Divider />
+      <Inputs />
+    </Container>
   );
 };
 
