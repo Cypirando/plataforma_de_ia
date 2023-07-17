@@ -5,7 +5,7 @@ const Container = styled.span`
   height: 866px;
   display: flex;
   opacity: 0.5;
-  background-color: #711f6d;
+  background-color: #023054;
   border-radius: 32px;
   align-items: center;
   justify-content: center;
