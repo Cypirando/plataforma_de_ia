@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Projeto de Plataforma de Inteligência Artificial
 
 ![Print da tela](./public/Screenshot.png)
+
+Neste projeto, desenvolvi a tela de início para uma plataforma de inteligência artificial. Utilizei tecnologias como React, TypeScript, componentes Styled e os ícones do Phosphor Icons.
+
+Confira o layout do desafio [Figma](https://www.figma.com/community/file/1260950780300628490/Plataforma-de-IA---Desafio-28)
 
 ## Available Scripts
 
