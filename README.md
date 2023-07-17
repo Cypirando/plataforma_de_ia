@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![Print da tela](Screenshot.png)
+![Print da tela](./public/Screenshot.png)
 
 ## Available Scripts
 
