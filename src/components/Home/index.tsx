@@ -17,7 +17,7 @@ const Home = () => {
       <CardBox>
         <Texts>
           <BorderIcons style={{ backgroundColor: "rgb(1 0 8 / 50%)" }}>
-            <MagicWand size={64} />
+            <MagicWand size={54} />
           </BorderIcons>
           <Title />
         </Texts>
